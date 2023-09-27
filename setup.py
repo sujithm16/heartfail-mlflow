@@ -30,7 +30,3 @@ setuptools.setup(
 )
 
 
-# 6 files are common for all the projects for now. template.py,setup.py,
-# requirements.txt(content may vary),utils-common.py,logging-__init__.py,
-# constants-__init__.py
-#
