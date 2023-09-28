@@ -10,6 +10,7 @@ COLUMNS:
   serum_sodium: int64  
   sex: int64  
   smoking: int64
+  DEATH_EVENT: int64
 
 TARGET_COLUMN:
   name: DEATH_EVENT

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/model%20deploy%20end%20to%20end/heartfailml/mlruns/0/edd83a3d12ce41e3b09e9a773c591b26/artifacts
+end_time: 1695920373479
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edd83a3d12ce41e3b09e9a773c591b26
+run_name: nimble-finch-740
+run_uuid: edd83a3d12ce41e3b09e9a773c591b26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695920369149
+status: 3
+tags: []
+user_id: Sujith

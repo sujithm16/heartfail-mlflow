@@ -23,7 +23,8 @@ class ModelTrainer:
         test_y = test_data[[self.config.target_column]]
 
 
-        rf= RandomForestClassifier(class_weight='balanced')
+        rf= RandomForestClassifier(class_weight='balanced',min_samples_split= self.config.min_samples_split,
+                                   min_samples_leaf= self.config.min_samples_leaf)
         rf.fit(train_x, train_y)
 
         joblib.dump(rf, os.path.join(self.config.root_dir, self.config.model_name))

@@ -3,7 +3,7 @@ artifacts_root: artifacts1
 
 data_ingestion:
   root_dir: artifacts1/data_ingestion
-  source_URL: https://github.com/sujithm16/heartfailureml/raw/main/heart_failure.zip
+  source_URL: https://github.com/sujithm16/data-science-projects/raw/main/heart_failure.zip
   local_data_file: artifacts1/data_ingestion/data.zip
   unzip_dir: artifacts1/data_ingestion
 
@@ -17,7 +17,6 @@ data_validation:
 data_transformation:
   root_dir: artifacts1/data_transformation
   data_path: artifacts1/data_ingestion/heart_failure.csv
-
 
 
 model_trainer:
