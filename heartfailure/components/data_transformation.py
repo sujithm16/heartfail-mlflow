@@ -5,7 +5,6 @@ import pandas as pd
 from heartfailure.entity import DataTransformationConfig
 
 
-
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
         self.config = config
@@ -15,7 +14,6 @@ class DataTransformation:
     #You can perform all kinds of EDA in ML cycle here before passing this data to the model
 
     # I am only adding train_test_spliting cz this data is already cleaned up
-
 
     def train_test_spliting(self):
         data = pd.read_csv(self.config.data_path)

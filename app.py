@@ -27,20 +27,20 @@ def index():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
-            fixed_acidity =float(request.form['fixed_acidity'])
-            volatile_acidity =float(request.form['volatile_acidity'])
-            citric_acid =float(request.form['citric_acid'])
-            residual_sugar =float(request.form['residual_sugar'])
-            chlorides =float(request.form['chlorides'])
-            free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
-            total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
-            density =float(request.form['density'])
-            pH =float(request.form['pH'])
-            sulphates =float(request.form['sulphates'])
-            alcohol =float(request.form['alcohol'])
+            age =float(request.form['age'])
+            anaemia =float(request.form['anaemia'])
+            creatinine_phosphokinase =float(request.form['creatinine_phosphokinase'])
+            diabetes =float(request.form['diabetes'])
+            ejection_fraction =float(request.form['ejection_fraction'])
+            high_blood_pressure =float(request.form['high_blood_pressure'])
+            platelets =float(request.form['platelets'])
+            serum_creatinine =float(request.form['serum_creatinine'])
+            serum_sodium =float(request.form['serum_sodium'])
+            sex =float(request.form['sex'])
+            smoking =float(request.form['smoking'])
        
          
-            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
+            data = [age,anaemia,creatinine_phosphokinase,diabetes,ejection_fraction,high_blood_pressure,platelets,serum_creatinine,serum_sodium,sex,smoking]
             data = np.array(data).reshape(1, 11)
             
             obj = PredictionPipeline()
