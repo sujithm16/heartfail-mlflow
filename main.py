@@ -1,5 +1,5 @@
 from MLproject.pipeline.stage1_data_ingestion import DataIngestionTrainingPipeline
-from MLproject.logging import logger
+from MLproject import logger
 
 
 STAGE_NAME = "Data Ingestion stage"

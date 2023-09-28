@@ -1,6 +1,6 @@
 from MLproject.config.configuration import ConfigurationManager
 from MLproject.components.data_ingestion import DataIngestion
-from MLproject.logging import logger
+from MLproject import logger
 
 
 class DataIngestionTrainingPipeline:
