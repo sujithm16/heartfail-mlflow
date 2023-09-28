@@ -1,35 +1,35 @@
-artifacts_root: artifacts
+artifacts_root: artifacts1
 
 
 data_ingestion:
-  root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/sujithm16/data-science-projects/raw/main/winequality-red.zip
-  local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  root_dir: artifacts1/data_ingestion
+  source_URL: https://github.com/sujithm16/heartfailureml/raw/main/heart_failure.zip
+  local_data_file: artifacts1/data_ingestion/data.zip
+  unzip_dir: artifacts1/data_ingestion
 
 
 data_validation:
-  root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
-  STATUS_FILE: artifacts/data_validation/status.txt
+  root_dir: artifacts1/data_validation
+  unzip_data_dir: artifacts1/data_ingestion/heart_failure.csv
+  STATUS_FILE: artifacts1/data_validation/status.txt
 
 
 data_transformation:
-  root_dir: artifacts/data_transformation
-  data_path: artifacts/data_ingestion/winequality-red.csv
+  root_dir: artifacts1/data_transformation
+  data_path: artifacts1/data_ingestion/heart_failure.csv
 
 
 
 model_trainer:
-  root_dir: artifacts/model_trainer
-  train_data_path: artifacts/data_transformation/train.csv
-  test_data_path: artifacts/data_transformation/test.csv
+  root_dir: artifacts1/model_trainer
+  train_data_path: artifacts1/data_transformation/train.csv
+  test_data_path: artifacts1/data_transformation/test.csv
   model_name: model.joblib
 
 
 
 model_evaluation:
-  root_dir: artifacts/model_evaluation
-  test_data_path: artifacts/data_transformation/test.csv
-  model_path: artifacts/model_trainer/model.joblib
-  metric_file_name: artifacts/model_evaluation/metrics.json
+  root_dir: artifacts1/model_evaluation
+  test_data_path: artifacts1/data_transformation/test.csv
+  model_path: artifacts1/model_trainer/model.joblib
+  metric_file_name: artifacts1/model_evaluation/metrics.json

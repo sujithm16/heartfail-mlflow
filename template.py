@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "MLproject"
+project_name = "heartfailure"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -13,12 +13,10 @@ list_of_files = [
     f"{project_name}/components/__init__.py",
     f"{project_name}/utils/__init__.py",
     f"{project_name}/utils/common.py",
-    f"{project_name}/logging/__init__.py",
     f"{project_name}/config/__init__.py",
     f"{project_name}/config/configuration.py",
     f"{project_name}/pipeline/__init__.py",
     f"{project_name}/entity/__init__.py",
-    f"{project_name}/entity/config_entity.py",
     f"{project_name}/constants/__init__.py",
     "config/config.yaml",
     "params.yaml",

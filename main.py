@@ -1,9 +1,9 @@
-from MLproject.pipeline.stage1_data_ingestion import DataIngestionTrainingPipeline
-from MLproject.pipeline.stage2_data_validation import DataValidationTrainingPipeline
-from MLproject.pipeline.stage3_data_transformation import DataTransformationTrainingPipeline
-from MLproject.pipeline.stage4_model_trainer import ModelTrainerTrainingPipeline
-from MLproject.pipeline.stage5_model_evaluation import ModelEvaluationTrainingPipeline
-from MLproject import logger
+from heartfailure.pipeline.stage1_data_ingestion import DataIngestionTrainingPipeline
+from heartfailure.pipeline.stage2_data_validation import DataValidationTrainingPipeline
+from heartfailure.pipeline.stage3_data_transformation import DataTransformationTrainingPipeline
+from heartfailure.pipeline.stage4_model_trainer import ModelTrainerTrainingPipeline
+from heartfailure.pipeline.stage5_model_evaluation import ModelEvaluationTrainingPipeline
+from heartfailure import logger
 
 
 STAGE_NAME = "Data Ingestion stage"

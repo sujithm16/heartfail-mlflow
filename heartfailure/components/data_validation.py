@@ -1,6 +1,6 @@
 import os
-from MLproject import logger
-from MLproject.entity import DataValidationConfig
+from heartfailure import logger
+from heartfailure.entity import DataValidationConfig
 import pandas as pd
 
 

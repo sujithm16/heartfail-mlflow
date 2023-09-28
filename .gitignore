@@ -160,8 +160,7 @@ cython_debug/
 #.idea/
 
 
-checkit.txt
-artifacts
-
 main.yaml
-mlruns
+checkit.txt
+artifacts1
+

@@ -1,6 +1,6 @@
-from MLproject.config.configuration import ConfigurationManager
-from MLproject.components.data_transformation import DataTransformation
-from MLproject import logger
+from heartfailure.config.configuration import ConfigurationManager
+from heartfailure.components.data_transformation import DataTransformation
+from heartfailure import logger
 from pathlib import Path
 
 
@@ -33,6 +33,15 @@ class DataTransformationTrainingPipeline:
 
 
 
+if __name__ == '__main__':
+    try:
+        logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+        obj = DataTransformationTrainingPipeline()
+        obj.main()
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    except Exception as e:
+        logger.exception(e)
+        raise e
 
 
 

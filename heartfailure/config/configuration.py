@@ -1,6 +1,6 @@
-from MLproject.constants import *
-from MLproject.utils.common import read_yaml, create_directories
-from MLproject.entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,
+from heartfailure.constants import *
+from heartfailure.utils.common import read_yaml, create_directories
+from heartfailure.entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,
                               ModelTrainerConfig,ModelEvaluationConfig)
 
 class ConfigurationManager:

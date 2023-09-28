@@ -1,8 +1,8 @@
 import os
-from MLproject import logger
+from heartfailure import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
-from MLproject.entity import DataTransformationConfig
+from heartfailure.entity import DataTransformationConfig
 
 
 

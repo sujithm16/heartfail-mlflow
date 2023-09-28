@@ -6,8 +6,8 @@ import mlflow
 import mlflow.sklearn
 import numpy as np
 import joblib
-from MLproject.entity import ModelEvaluationConfig
-from MLproject.utils.common import save_json
+from heartfailure.entity import ModelEvaluationConfig
+from heartfailure.utils.common import save_json
 from pathlib import Path
 
 

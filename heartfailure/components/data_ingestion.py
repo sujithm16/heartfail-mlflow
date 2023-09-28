@@ -1,10 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-from MLproject import logger
-from MLproject.utils.common import get_size
+from heartfailure import logger
+from heartfailure.utils.common import get_size
 from pathlib import Path
-from MLproject.entity import DataIngestionConfig
+from heartfailure.entity import DataIngestionConfig
 
 
 class DataIngestion:
