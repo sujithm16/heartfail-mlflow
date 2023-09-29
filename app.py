@@ -1,7 +1,3 @@
-#import streamlit as st
-
-#st.header('Welcome to Streamlit!')
-
 from flask import Flask, render_template, request
 import os 
 import numpy as np
