@@ -13,8 +13,8 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
-        logger.exception(e)
-        raise e
+   logger.exception(e)
+   raise e
 
 
 STAGE_NAME = "Data Validation stage"
@@ -24,8 +24,8 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
-        logger.exception(e)
-        raise e
+   logger.exception(e)
+   raise e
 
 
 STAGE_NAME = "Data Transformation stage"
@@ -35,8 +35,8 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
-        logger.exception(e)
-        raise e
+   logger.exception(e)
+   raise e
 
 
 STAGE_NAME = "Model Trainer stage"
@@ -46,8 +46,8 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
-        logger.exception(e)
-        raise e
+   logger.exception(e)
+   raise e
 
 
 STAGE_NAME = "Model evaluation stage"
@@ -57,6 +57,6 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
-        logger.exception(e)
-        raise e
+   logger.exception(e)
+   raise e
 
